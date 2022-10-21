@@ -33,6 +33,7 @@ namespace HomeWork9._4
         static async void BotClientRun()
         {
             string token = System.IO.File.ReadAllText(@"C:\Users\User\source\repos\TG_bots\mytemptestbot2022_bot_token.txt");
+            //5248948021:AAEbCl9bCQyVLM1rxy8TJQiJBkkfzg9OBAY
 
             botClient = new TelegramBotClient(token);
 
